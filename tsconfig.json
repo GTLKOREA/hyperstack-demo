@@ -20,20 +20,11 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["src", "vite.config.ts"],
+  "include": ["src"],
   "exclude": [
     "node_modules",
     "app",
     "next-env.d.ts",
-    ".next",
-    "src/app",
-    "src/components/intro",
-    "src/components/jos",
-    "src/components/presentation",
-    "src/data/intro.ts",
-    "src/lib/jos-api.ts",
-    "src/lib/jos-presenters.ts",
-    "src/lib/jos-types.ts"
-  ],
-  "references": [{ "path": "./tsconfig.node.json" }]
+    ".next"
+  ]
 }
