@@ -1,0 +1,149 @@
+{
+  "version": "1.0.0",
+  "updatedAt": "2026-03-26T10:30:00+09:00",
+  "scenarios": [
+    {
+      "id": "normal-operation",
+      "name": "Normal Operation",
+      "headline": "Balanced steady-state orchestration",
+      "summary": "HyperStack operates in a high-autonomy, margin-stable mode with synchronized telemetry, optimization, dispatch, and settlement.",
+      "narrative": "A benchmark operating day with strong visibility, low latency, and efficient value capture.",
+      "accent": "#39E6D2",
+      "riskPosture": "Low",
+      "investorSignal": "Demonstrates recurring operational discipline and healthy unit economics.",
+      "primaryFlow": "data-upstream",
+      "timeline": [
+        {
+          "step": 1,
+          "timestamp": "06:00",
+          "title": "Telemetry synchronized",
+          "layerFocus": ["L1", "L2"],
+          "message": "Physical sites stream synchronized asset and thermal telemetry into AIMEPS."
+        },
+        {
+          "step": 2,
+          "timestamp": "06:02",
+          "title": "Optimization envelope issued",
+          "layerFocus": ["L2", "L3", "L4"],
+          "message": "AIMEPS publishes a demand forecast and optimized dispatch envelope through GTL-Link to ASHS."
+        },
+        {
+          "step": 3,
+          "timestamp": "06:05",
+          "title": "Control loop executed",
+          "layerFocus": ["L4", "L3", "L1"],
+          "message": "ASHS executes balancing policy and downstream control with minimal reserve consumption."
+        },
+        {
+          "step": 4,
+          "timestamp": "06:09",
+          "title": "Financial update posted",
+          "layerFocus": ["L4", "L5", "L6"],
+          "message": "Financial protocol posts realized margin and EOP updates the executive view."
+        }
+      ]
+    },
+    {
+      "id": "black-start",
+      "name": "Black Start",
+      "headline": "Resilience-led recovery orchestration",
+      "summary": "HyperStack detects disturbance conditions, prioritizes critical load restoration, and synchronizes reserve finance during staged recovery.",
+      "narrative": "A stress scenario that highlights fast detection, autonomous recovery, and capital-protective control.",
+      "accent": "#57B8FF",
+      "riskPosture": "Elevated",
+      "investorSignal": "Shows system resilience, recovery confidence, and downside containment during infrastructure stress.",
+      "primaryFlow": "control-downstream",
+      "timeline": [
+        {
+          "step": 1,
+          "timestamp": "03:12",
+          "title": "Disturbance detected",
+          "layerFocus": ["L1", "L2", "L4"],
+          "message": "AIMEPS detects a cascading availability drop and escalates to ASHS recovery mode."
+        },
+        {
+          "step": 2,
+          "timestamp": "03:13",
+          "title": "Recovery policy synthesized",
+          "layerFocus": ["L4", "L3", "L1"],
+          "message": "ASHS generates a black-start sequence and pushes restoration controls into the field."
+        },
+        {
+          "step": 3,
+          "timestamp": "03:17",
+          "title": "Reserve finance aligned",
+          "layerFocus": ["L4", "L5", "L6"],
+          "message": "Contingency reserve coverage and restoration progress are posted to the executive layer."
+        }
+      ]
+    },
+    {
+      "id": "peak-load",
+      "name": "Peak Load",
+      "headline": "Throughput-first demand response",
+      "summary": "Demand volatility is transformed into a coordinated dispatch strategy across energy, compute, and financial incentives.",
+      "narrative": "A high-demand window that proves HyperStack can increase throughput while preserving margin discipline.",
+      "accent": "#F4C95D",
+      "riskPosture": "Moderate",
+      "investorSignal": "Highlights revenue capture under demand pressure and the ability to monetize flexibility.",
+      "primaryFlow": "control-downstream",
+      "timeline": [
+        {
+          "step": 1,
+          "timestamp": "18:40",
+          "title": "Peak crest forecast",
+          "layerFocus": ["L2", "L3", "L4"],
+          "message": "AIMEPS forecasts a demand crest and packages flexibility signals for ASHS."
+        },
+        {
+          "step": 2,
+          "timestamp": "18:42",
+          "title": "Capacity reallocated",
+          "layerFocus": ["L4", "L3", "L1"],
+          "message": "ASHS reprioritizes dispatch and compute loads to widen the operating envelope."
+        },
+        {
+          "step": 3,
+          "timestamp": "18:47",
+          "title": "Peak value monetized",
+          "layerFocus": ["L4", "L5", "L6"],
+          "message": "Financial protocol books dynamic peak incentives and EOP surfaces revenue posture."
+        }
+      ]
+    },
+    {
+      "id": "kpi-settlement",
+      "name": "KPI Settlement",
+      "headline": "Operational proof to financial trust",
+      "summary": "Verified operating results flow into settlement logic, investor reporting, and incentive distribution.",
+      "narrative": "A finance-forward close process showing how HyperStack turns performance into auditable economic value.",
+      "accent": "#FF8C6A",
+      "riskPosture": "Low",
+      "investorSignal": "Demonstrates auditability, payout readiness, and institutional-grade reporting discipline.",
+      "primaryFlow": "financial-flow",
+      "timeline": [
+        {
+          "step": 1,
+          "timestamp": "23:10",
+          "title": "Performance proof assembled",
+          "layerFocus": ["L1", "L2", "L3", "L4"],
+          "message": "Verified operational outcomes are assembled into a settlement-ready proof package."
+        },
+        {
+          "step": 2,
+          "timestamp": "23:12",
+          "title": "Settlement waterfall executed",
+          "layerFocus": ["L4", "L5", "L6"],
+          "message": "Financial protocol calculates payouts, reserve coverage, and incentive distribution."
+        },
+        {
+          "step": 3,
+          "timestamp": "23:18",
+          "title": "Investor reporting published",
+          "layerFocus": ["L5", "L6"],
+          "message": "EOP publishes the investor-ready reporting package with full audit readiness."
+        }
+      ]
+    }
+  ]
+}

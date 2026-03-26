@@ -1,0 +1,54 @@
+{
+  "version": "1.0.0",
+  "updatedAt": "2026-03-26T10:30:00+09:00",
+  "flows": [
+    {
+      "id": "data-upstream",
+      "name": "Data Upstream",
+      "direction": "L1->L6",
+      "sourceLayer": "L1",
+      "targetLayer": "L6",
+      "color": "#39E6D2",
+      "description": "Telemetry, optimization signals, and verified operating outcomes move upstream from physical assets into executive and investor intelligence.",
+      "businessMeaning": "Turns asset reality into platform-grade visibility and confidence.",
+      "keyPayloads": [
+        "Asset telemetry",
+        "Forecast models",
+        "Operating proof",
+        "Performance KPIs"
+      ]
+    },
+    {
+      "id": "control-downstream",
+      "name": "Control Downstream",
+      "direction": "L4->L1",
+      "sourceLayer": "L4",
+      "targetLayer": "L1",
+      "color": "#F4C95D",
+      "description": "Autonomous policy, dispatch commands, and recovery instructions move from supervisory intelligence into the field.",
+      "businessMeaning": "Protects uptime, improves efficiency, and compresses response time during volatility.",
+      "keyPayloads": [
+        "Dispatch commands",
+        "Recovery policies",
+        "Risk controls",
+        "Load balancing actions"
+      ]
+    },
+    {
+      "id": "financial-flow",
+      "name": "Financial Flow",
+      "direction": "L4->L6",
+      "sourceLayer": "L4",
+      "targetLayer": "L6",
+      "color": "#FF8C6A",
+      "description": "Verified performance and supervisory outcomes feed the financial protocol and propagate into reporting, settlement, and investor visibility.",
+      "businessMeaning": "Bridges autonomous operations with monetization, reserves, and capital reporting.",
+      "keyPayloads": [
+        "Settlement packets",
+        "Incentive allocations",
+        "Reserve updates",
+        "Investor-ready reports"
+      ]
+    }
+  ]
+}

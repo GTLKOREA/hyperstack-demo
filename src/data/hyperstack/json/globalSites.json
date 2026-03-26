@@ -1,0 +1,132 @@
+{
+  "version": "1.0.0",
+  "updatedAt": "2026-03-26T10:30:00+09:00",
+  "sites": [
+    {
+      "id": "kr-seoul-01",
+      "name": "Seoul Prime Hub",
+      "region": "APAC",
+      "country": "South Korea",
+      "coordinates": { "x": 77, "y": 34 },
+      "siteType": "AI compute + energy management",
+      "statusByScenario": {
+        "normal-operation": "Stable",
+        "black-start": "Recovering",
+        "peak-load": "High Demand",
+        "kpi-settlement": "Settled"
+      },
+      "capacityIndex": 94,
+      "connectedAssets": 18,
+      "revenueWeight": 0.19,
+      "latencyMs": 18
+    },
+    {
+      "id": "sg-singapore-01",
+      "name": "Singapore Exchange Node",
+      "region": "APAC",
+      "country": "Singapore",
+      "coordinates": { "x": 72, "y": 52 },
+      "siteType": "Regional coordination + settlement",
+      "statusByScenario": {
+        "normal-operation": "Stable",
+        "black-start": "Stable",
+        "peak-load": "Flex Dispatch",
+        "kpi-settlement": "Settled"
+      },
+      "capacityIndex": 88,
+      "connectedAssets": 15,
+      "revenueWeight": 0.14,
+      "latencyMs": 24
+    },
+    {
+      "id": "de-frankfurt-01",
+      "name": "Frankfurt Grid Node",
+      "region": "EMEA",
+      "country": "Germany",
+      "coordinates": { "x": 49, "y": 28 },
+      "siteType": "Grid balancing + market interface",
+      "statusByScenario": {
+        "normal-operation": "Stable",
+        "black-start": "Stable",
+        "peak-load": "Stable",
+        "kpi-settlement": "Settled"
+      },
+      "capacityIndex": 83,
+      "connectedAssets": 14,
+      "revenueWeight": 0.17,
+      "latencyMs": 31
+    },
+    {
+      "id": "ae-dubai-01",
+      "name": "Dubai Flex Reserve",
+      "region": "MEA",
+      "country": "United Arab Emirates",
+      "coordinates": { "x": 58, "y": 39 },
+      "siteType": "Reserve balancing + export support",
+      "statusByScenario": {
+        "normal-operation": "Stable",
+        "black-start": "Assist Mode",
+        "peak-load": "Stable",
+        "kpi-settlement": "Settled"
+      },
+      "capacityIndex": 76,
+      "connectedAssets": 11,
+      "revenueWeight": 0.11,
+      "latencyMs": 37
+    },
+    {
+      "id": "us-dallas-01",
+      "name": "Dallas Reliability Hub",
+      "region": "Americas",
+      "country": "United States",
+      "coordinates": { "x": 20, "y": 38 },
+      "siteType": "Reliability reserve + compute support",
+      "statusByScenario": {
+        "normal-operation": "Stable",
+        "black-start": "Exporting Support",
+        "peak-load": "Reserve Export",
+        "kpi-settlement": "Settled"
+      },
+      "capacityIndex": 81,
+      "connectedAssets": 13,
+      "revenueWeight": 0.13,
+      "latencyMs": 42
+    },
+    {
+      "id": "jp-tokyo-01",
+      "name": "Tokyo Autonomous Cluster",
+      "region": "APAC",
+      "country": "Japan",
+      "coordinates": { "x": 81, "y": 31 },
+      "siteType": "Autonomous compute + edge controls",
+      "statusByScenario": {
+        "normal-operation": "Stable",
+        "black-start": "Stable",
+        "peak-load": "High Throughput",
+        "kpi-settlement": "Settled"
+      },
+      "capacityIndex": 86,
+      "connectedAssets": 12,
+      "revenueWeight": 0.12,
+      "latencyMs": 21
+    },
+    {
+      "id": "uk-london-01",
+      "name": "London Financial Relay",
+      "region": "EMEA",
+      "country": "United Kingdom",
+      "coordinates": { "x": 45, "y": 25 },
+      "siteType": "Financial protocol relay",
+      "statusByScenario": {
+        "normal-operation": "Stable",
+        "black-start": "Monitoring",
+        "peak-load": "Stable",
+        "kpi-settlement": "Settlement Lead"
+      },
+      "capacityIndex": 72,
+      "connectedAssets": 9,
+      "revenueWeight": 0.09,
+      "latencyMs": 27
+    }
+  ]
+}

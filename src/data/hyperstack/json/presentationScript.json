@@ -1,0 +1,163 @@
+{
+  "version": "1.0.0",
+  "updatedAt": "2026-03-26T12:10:00+09:00",
+  "autoplay": {
+    "enabled": true,
+    "defaultScenario": "normal-operation",
+    "stepDurationMs": 3600,
+    "captionMode": "investor-friendly",
+    "loop": true
+  },
+  "scripts": [
+    {
+      "scenarioId": "normal-operation",
+      "title": "Normal Operation Narrative",
+      "openingCaption": "HyperStack is the operating system of AI infrastructure, continuously converting operational proof into financial value.",
+      "closingCaption": "In normal operation, HyperStack behaves like a continuous value engine, improving performance, proving KPIs, and supporting capital efficiency.",
+      "steps": [
+        {
+          "sequence": 1,
+          "timestamp": "06:00",
+          "view": "value-flow",
+          "focusLayers": ["L1", "L2"],
+          "narrativeLabel": "Trusted Inputs",
+          "headline": "Field performance becomes trusted digital proof.",
+          "caption": "Physical assets publish verified operating state into AIMEPS, creating a trusted real-time foundation for machine decisions and financial confidence."
+        },
+        {
+          "sequence": 2,
+          "timestamp": "06:02",
+          "view": "sequence",
+          "focusLayers": ["L2", "L3", "L4"],
+          "narrativeLabel": "AI Coordination",
+          "headline": "Signals are standardized, routed, and optimized.",
+          "caption": "AIMEPS packages forecasts and optimization signals, while GTL-Link routes them into ASHS for supervisory action across the stack."
+        },
+        {
+          "sequence": 3,
+          "timestamp": "06:05",
+          "view": "dashboard",
+          "focusLayers": ["L4", "L1"],
+          "narrativeLabel": "Operational Gain",
+          "headline": "Autonomous control lifts KPI quality.",
+          "caption": "ASHS executes autonomous control downstream, tightening dispatch, preserving reserve margin, and improving efficiency in measurable terms."
+        },
+        {
+          "sequence": 4,
+          "timestamp": "06:09",
+          "view": "map",
+          "focusLayers": ["L5", "L6"],
+          "narrativeLabel": "Investor Outcome",
+          "headline": "Operational gains become visible financial value.",
+          "caption": "Financial protocol posts realized value and EOP surfaces an investor-ready operating picture in near real time for portfolio oversight."
+        }
+      ]
+    },
+    {
+      "scenarioId": "black-start",
+      "title": "Black Start Narrative",
+      "openingCaption": "Black Start is the resilience story: crisis contained, recovery coordinated, stability restored, and value protected.",
+      "closingCaption": "The black-start sequence ends with stabilized KPIs, recovered confidence, and a clear demonstration that resilience preserves asset value.",
+      "steps": [
+        {
+          "sequence": 1,
+          "timestamp": "03:12",
+          "view": "sequence",
+          "focusLayers": ["L1", "L2", "L4"],
+          "narrativeLabel": "Crisis",
+          "headline": "Instability is detected before value loss cascades.",
+          "caption": "The sequence opens in crisis, with AIMEPS detecting instability early enough to contain performance loss before it spreads across the system."
+        },
+        {
+          "sequence": 2,
+          "timestamp": "03:13",
+          "view": "value-flow",
+          "focusLayers": ["L4", "L3", "L1"],
+          "narrativeLabel": "Recovery",
+          "headline": "Recovery begins through controlled engine restart.",
+          "caption": "ASHS and GTL-Link restart the system in a disciplined sequence, translating recovery logic into controlled physical restoration."
+        },
+        {
+          "sequence": 3,
+          "timestamp": "03:17",
+          "view": "dashboard",
+          "focusLayers": ["L5", "L6"],
+          "narrativeLabel": "Stabilized Value",
+          "headline": "Restored operations recover KPIs and confidence.",
+          "caption": "The system stabilizes and then improves, with recovered KPIs making resilience visible in both operational and financial terms."
+        }
+      ]
+    },
+    {
+      "scenarioId": "peak-load",
+      "title": "Peak Load Narrative",
+      "openingCaption": "Peak Load is the margin story: stress arrives, AI responds, efficiency improves, and delivered cost comes down.",
+      "closingCaption": "Peak load ends with lower delivered cost, stronger efficiency, and a clearer demonstration that HyperStack protects value under pressure.",
+      "steps": [
+        {
+          "sequence": 1,
+          "timestamp": "18:40",
+          "view": "dashboard",
+          "focusLayers": ["L2", "L4"],
+          "narrativeLabel": "Stress",
+          "headline": "Load pressure appears, but the system sees it early.",
+          "caption": "The sequence begins in stress as load surges, but early forecasting creates room for margin-preserving intervention before degradation spreads."
+        },
+        {
+          "sequence": 2,
+          "timestamp": "18:42",
+          "view": "value-flow",
+          "focusLayers": ["L4", "L3", "L1"],
+          "narrativeLabel": "Optimization",
+          "headline": "AI reallocates capacity to protect efficiency.",
+          "caption": "ASHS reallocates capacity and coordinates response pathways to protect uptime, cooling balance, and fleet efficiency in real time."
+        },
+        {
+          "sequence": 3,
+          "timestamp": "18:47",
+          "view": "comparison",
+          "focusLayers": ["L5", "L6"],
+          "narrativeLabel": "Cost Reduction",
+          "headline": "Operational efficiency converts into cleaner margin.",
+          "caption": "The financial layer converts better dispatch into reduced cost, stronger margin quality, and more credible value capture under stress."
+        }
+      ]
+    },
+    {
+      "scenarioId": "kpi-settlement",
+      "title": "KPI Settlement Narrative",
+      "openingCaption": "KPI Settlement is the monetization story: performance is measured, contract logic is applied, settlement is executed, and investor return is published.",
+      "closingCaption": "The settlement sequence ends with auditable investor return, turning verified infrastructure performance into capital outcomes.",
+      "steps": [
+        {
+          "sequence": 1,
+          "timestamp": "23:10",
+          "view": "sequence",
+          "focusLayers": ["L1", "L2", "L3", "L4"],
+          "narrativeLabel": "Measurement",
+          "headline": "Verified KPI proof is assembled across the stack.",
+          "caption": "The sequence starts with measurement, assembling verified operating proof across the stack as the basis for payout and confidence."
+        },
+        {
+          "sequence": 2,
+          "timestamp": "23:12",
+          "view": "dashboard",
+          "focusLayers": ["L5"],
+          "narrativeLabel": "Settlement",
+          "headline": "Contract logic converts proof into cashflow.",
+          "caption": "The financial protocol applies contract logic and settlement rules, converting KPI proof into enforceable cashflow allocation."
+        },
+        {
+          "sequence": 3,
+          "timestamp": "23:18",
+          "view": "map",
+          "focusLayers": ["L6"],
+          "narrativeLabel": "Investor Return",
+          "headline": "EOP publishes a capital-grade outcome.",
+          "caption": "The process ends in investor return, as EOP publishes a capital-grade result built from verified settlement and portfolio visibility."
+        }
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,144 @@
+{
+  "version": "1.0.0",
+  "updatedAt": "2026-03-26T10:30:00+09:00",
+  "layers": [
+    {
+      "id": "L1",
+      "slug": "physical",
+      "name": "Physical Layer",
+      "platformName": "L1 Physical",
+      "tagline": "Asset reality and energy-compute capacity",
+      "description": "Grid assets, generation fleets, storage, compute clusters, and sensor networks expose real-world operating state and dispatchable capacity into the HyperStack system.",
+      "primaryRole": "Provide verified physical availability, telemetry, and controllable field execution.",
+      "color": "#1E6B3A",
+      "icon": "hex-grid",
+      "keyFunctions": [
+        "Asset telemetry",
+        "Generation and storage dispatch",
+        "Compute availability",
+        "Field-state verification"
+      ],
+      "investorValue": "Establishes the hard-asset base and measurable utilization that support platform-level monetization.",
+      "headlineMetrics": [
+        { "label": "Connected Sites", "value": 84, "unit": "sites" },
+        { "label": "Flexible Capacity", "value": 4.8, "unit": "GW" },
+        { "label": "Availability", "value": 99.82, "unit": "%" }
+      ]
+    },
+    {
+      "id": "L2",
+      "slug": "aimeps",
+      "name": "AIMEPS Layer",
+      "platformName": "L2 AIMEPS",
+      "tagline": "Predictive intelligence and optimization",
+      "description": "AIMEPS converts raw telemetry into machine-operable forecasts, anomaly detection, and optimization signals for autonomous infrastructure decisions.",
+      "primaryRole": "Transform operating data into predictive guidance and optimization packets.",
+      "color": "#0C447C",
+      "icon": "signal-wave",
+      "keyFunctions": [
+        "Load forecasting",
+        "Anomaly detection",
+        "Performance optimization",
+        "Risk scoring"
+      ],
+      "investorValue": "Improves throughput, lowers waste, and lifts asset yield through forecast-driven operating precision.",
+      "headlineMetrics": [
+        { "label": "Inference Latency", "value": 28, "unit": "ms" },
+        { "label": "Forecast Accuracy", "value": 97.4, "unit": "%" },
+        { "label": "Optimization Gain", "value": 12.4, "unit": "%" }
+      ]
+    },
+    {
+      "id": "L3",
+      "slug": "gtl-link",
+      "name": "GTL-Link Layer",
+      "platformName": "L3 GTL-Link",
+      "tagline": "Trusted transport and synchronization fabric",
+      "description": "GTL-Link synchronizes energy, compute, logistics, and transaction state across distributed infrastructure with a trusted, auditable coordination mesh.",
+      "primaryRole": "Provide cross-domain routing, state consistency, and secure inter-layer communication.",
+      "color": "#3C3489",
+      "icon": "mesh-network",
+      "keyFunctions": [
+        "Cross-layer routing",
+        "State synchronization",
+        "Secure relay",
+        "Consensus messaging"
+      ],
+      "investorValue": "Reduces coordination risk and enables scalable network effects across geographically distributed infrastructure.",
+      "headlineMetrics": [
+        { "label": "Integrity", "value": 99.999, "unit": "%" },
+        { "label": "Connected Links", "value": 312, "unit": "links" },
+        { "label": "Consensus Time", "value": 410, "unit": "ms" }
+      ]
+    },
+    {
+      "id": "L4",
+      "slug": "ashs",
+      "name": "ASHS Layer",
+      "platformName": "L4 ASHS",
+      "tagline": "Autonomous supervision and control",
+      "description": "ASHS acts as the operating intelligence core, applying policy, balancing, recovery logic, and supervisory control across the full HyperStack estate.",
+      "primaryRole": "Issue autonomous decisions, orchestrate scenarios, and execute system-wide control loops.",
+      "color": "#085041",
+      "icon": "control-core",
+      "keyFunctions": [
+        "Autonomous dispatch",
+        "Scenario recovery",
+        "Policy orchestration",
+        "Risk-aware control"
+      ],
+      "investorValue": "Compresses response time, protects margin during volatility, and increases autonomy-driven operating leverage.",
+      "headlineMetrics": [
+        { "label": "Autonomy Rate", "value": 86, "unit": "%" },
+        { "label": "Decision Cadence", "value": 1.8, "unit": "sec" },
+        { "label": "Recovery Window", "value": 4.2, "unit": "min" }
+      ]
+    },
+    {
+      "id": "L5",
+      "slug": "financial-protocol",
+      "name": "Financial Protocol Layer",
+      "platformName": "L5 Financial Protocol",
+      "tagline": "Programmable settlement and incentives",
+      "description": "The financial protocol turns verified operating outcomes into settlements, incentives, reserve logic, and programmable financial products.",
+      "primaryRole": "Translate verified performance into revenue capture, settlement, and value distribution.",
+      "color": "#854F0B",
+      "icon": "liquidity-flow",
+      "keyFunctions": [
+        "Settlement engine",
+        "Incentive routing",
+        "Reserve accounting",
+        "Yield distribution"
+      ],
+      "investorValue": "Converts physical and digital performance into auditable financial outcomes and investable cash-flow logic.",
+      "headlineMetrics": [
+        { "label": "Daily Settlement", "value": 12.4, "unit": "USD_M" },
+        { "label": "Margin Capture", "value": 8.2, "unit": "%" },
+        { "label": "Programmable Flows", "value": 31, "unit": "%" }
+      ]
+    },
+    {
+      "id": "L6",
+      "slug": "eop-platform",
+      "name": "EOP Platform Layer",
+      "platformName": "L6 EOP Platform",
+      "tagline": "Executive operating and investor surface",
+      "description": "EOP exposes the operating system to executives, operators, and capital partners through dashboards, alerts, audit trails, and presentation-ready intelligence.",
+      "primaryRole": "Present outcomes, KPIs, and trust signals in a decision-ready platform layer.",
+      "color": "#993556",
+      "icon": "executive-panel",
+      "keyFunctions": [
+        "Executive dashboards",
+        "Investor reporting",
+        "Audit visibility",
+        "Presentation APIs"
+      ],
+      "investorValue": "Makes HyperStack understandable, reportable, and financeable at institutional decision speed.",
+      "headlineMetrics": [
+        { "label": "Portfolio ROI", "value": 18.9, "unit": "%" },
+        { "label": "Operational Score", "value": 94, "unit": "/100" },
+        { "label": "Time To Insight", "value": 11, "unit": "sec" }
+      ]
+    }
+  ]
+}
